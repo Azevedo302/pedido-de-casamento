@@ -1,0 +1,58 @@
+/* Centralizar e estilizar a página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff4081;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#yesButton {
+    background-color: #ff4081;
+    color: #ffffff;
+}
+
+#noButton {
+    background-color: #ccc;
+    color: #333;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+}
